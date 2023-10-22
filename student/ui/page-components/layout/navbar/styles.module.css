@@ -1,0 +1,14 @@
+.container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 997;
+    align-items: center!important;
+    background: #1e4356;
+    color: white;
+}
+.nev{
+    display: flex;
+    gap:10px;
+    cursor: pointer;
+}
