@@ -1,0 +1,1 @@
+import Home from "@/ui/page-components/home";
