@@ -1,0 +1,44 @@
+.container{
+    background: #0d2735;
+}
+.main{
+    padding: 50px 70px;
+}
+.footer{
+    border-top: 1px solid #17455e;
+}
+
+.topContainer{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.ourText{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    color: #a2cce3;
+}
+.inputField{
+    width: 400px;
+    background: white;
+    border: none;
+    margin: 8px;
+}
+.inputBox{
+    width: 40%;
+}
+.head{
+    font-size: 18px;
+    font-weight: 600;
+    color: #a2cce3;
+    position: relative;
+    padding-bottom: 12px;
+}
+.footerBox{
+    display: flex;
+    justify-content: space-around;
+}

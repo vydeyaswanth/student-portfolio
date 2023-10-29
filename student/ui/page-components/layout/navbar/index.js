@@ -1,12 +1,21 @@
+
 import styles from './styles.module.css'
-const NavBar=()=>{
+import { useState } from 'react'
+import { useRouter } from 'next/router';
+const NAV = ['Home', 'About', 'Service', 'Team', 'Portfolio', 'Blog', 'Contact Us']
+const NavBar = () => {
+    const [active, setActive] = useState('Home')
+    const { push } = useRouter()
+    const onHandle = (item) => {
+        setActive(item)
+        push(item.toLowerCase())
+    }
     return <div className={styles.container}>
-        <div>ok</div>
+        <h3>Student</h3>
         <div className={styles.nev}>
-            <div>Home</div>
-            <div>About</div>
-            <div>Service</div>
-            <div>Team</div>
+            {NAV.map((item) => {
+                return <div key={item} onClick={() => onHandle(item)} className={item === active ? styles.active : styles.text}>{item}</div>
+            })}
         </div>
     </div>
 };

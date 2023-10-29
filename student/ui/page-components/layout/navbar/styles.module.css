@@ -1,14 +1,23 @@
 .container{
-    padding: 30px;
+    padding: 10px 70px;
     display: flex;
     justify-content: space-between;
     z-index: 997;
     align-items: center!important;
     background: #1e4356;
     color: white;
+    position: fixed;
+    width: 100%;
 }
 .nev{
     display: flex;
-    gap:10px;
+    gap:30px;
     cursor: pointer;
+}
+.active{
+    font-size: 14px;
+    color: #a2cce3;
+}
+.text{
+    font-size: 14px;
 }
