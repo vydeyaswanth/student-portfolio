@@ -1,0 +1,11 @@
+.container{
+    background-color: #f3f8fa;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+} 
+.count{
+    font-size: 48px;
+    display: block;
+    color: #68A4C4;
+}

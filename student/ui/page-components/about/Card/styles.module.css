@@ -1,0 +1,24 @@
+.container{
+    background-color: #fff;
+    display: flex;
+    padding: 25px 70px;
+    justify-content: space-between;
+}
+.title{
+    font-weight: 400;
+    font-size: 26px;
+}
+.text_box{
+    padding-left: 40px;
+}
+.sub_heading{
+    font-style: italic!important;
+
+}
+.ui{
+    margin: 15px 0;
+
+}
+.li{
+   padding: 5px 0;
+}

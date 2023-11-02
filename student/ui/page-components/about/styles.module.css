@@ -1,0 +1,16 @@
+.container{
+    
+}
+.nav{
+    padding: 15px 70px;
+    background-color: #f3f8fa;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head{
+    font-size: 28px;
+    font-weight: 300;
+}
