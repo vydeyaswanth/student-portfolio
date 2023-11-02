@@ -2,6 +2,7 @@ import styles from './styles.module.css'
 import Card from './Card';
 import ScoreCard from './ScoreCard';
 import SkillsCard from './SkillsCard';
+import Tetstimonials from './Tetstimonials';
 const About=()=>{
     return <div className={styles.container}>
         <div style={{ padding: '32px'}}/>
@@ -12,6 +13,7 @@ const About=()=>{
         <Card/>
         <ScoreCard/>
         <SkillsCard/>
+        <Tetstimonials/>
     </div>
 };
 export default About;
