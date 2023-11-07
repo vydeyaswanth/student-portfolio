@@ -2,7 +2,7 @@
 import styles from './styles.module.css'
 import { useState } from 'react'
 import { useRouter } from 'next/router';
-const NAV = ['Home', 'About', 'Service', 'Team', 'Portfolio', 'Blog', 'Contact Us']
+const NAV = ['Home', 'Blog', 'Cv', 'Contact Us']
 const NavBar = () => {
     const [active, setActive] = useState('Home')
     const { push } = useRouter()
