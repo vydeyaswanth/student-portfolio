@@ -1,0 +1,30 @@
+.upload {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button_style {
+    background-color: #6c757d;;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.download_button {
+    background-color: #034AFD;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button_style:hover,.download_button:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
